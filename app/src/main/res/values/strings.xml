@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Country</string>
+    <string name="ch">中文</string>
+    <string name="en">英文</string>
+    <string name="hellow">你好</string>
+</resources>
