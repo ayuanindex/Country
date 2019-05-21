@@ -50,11 +50,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
         //更新语言后，destroy当前页面，重新绘制
         resources.updateConfiguration(config, dm);
-        finish();
         Intent it = new Intent(MainActivity.this, MainActivity.class);
         //清空任务栈确保当前打开activit为前台任务栈栈顶
-        it.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        it.setFlags(/*Intent.FLAG_ACTIVITY_NEW_TASK |*/ Intent.FLAG_ACTIVITY_CLEAR_TASK);
         startActivity(it);
+        finish();
     }
 
 
